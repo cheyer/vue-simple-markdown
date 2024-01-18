@@ -2,12 +2,15 @@
 
 [![npm](https://img.shields.io/npm/v/vue-simple-markdown.svg)](https://www.npmjs.com/package/vue-simple-markdown) [![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
 
+> Fork to fix ESM build so this package works with Vite
+https://www.npmjs.com/package/vue-simple-markdown-vite
+
 > A Simple and Highspeed Markdown Parser for Vue
 
 ## Installation
 
 ```bash
-npm install --save vue-simple-markdown
+npm install --save vue-simple-markdown-vite
 ```
 
 ## Usage
@@ -16,7 +19,7 @@ npm install --save vue-simple-markdown
 
 ```js
 import Vue from 'vue'
-import VueSimpleMarkdown from 'vue-simple-markdown'
+import VueSimpleMarkdown from 'vue-simple-markdown-vite'
 // You need a specific loader for CSS files like https://github.com/webpack/css-loader
 import 'vue-simple-markdown/dist/vue-simple-markdown.css'
 
